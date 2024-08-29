@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #28a745;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Success</h1>
+        <p>Your appointment has been scheduled successfully.</p>
+        
+        <h2>Predicted Specialty: {{ predicted_specialty }}</h2>
+        
+        {% if recommended_hospitals is none or recommended_hospitals.empty %}
+            <p>No recommended hospitals found for the predicted specialty.</p>
+        {% else %}
+            <h2>Recommended Hospitals:</h2>
+            <ul>
+                {% for hospital in recommended_hospitals %}
+                    <li>{{ hospital }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        
+        <p>Number of available beds in {{ hospital_name }}: {{ available_beds }}</p>
+    </div>
+</body>
+</html>

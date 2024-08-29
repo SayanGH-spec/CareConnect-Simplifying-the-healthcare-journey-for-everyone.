@@ -1,0 +1,51 @@
+Hospital_ID,Hospital_Name,Specialty,Location,Latitude,Longitude,Rating,Availability_Beds_Cardiology,Availability_Beds_Neurology,Availability_Beds_Orthopedics
+1,Calcutta Medical Center,Cardiology,88 College St,22.5726,88.3639,4.5,15,10,20
+2,AMRI Hospital Kolkata,Neurology,230 Barakhola Lane,22.4768,88.3923,4.0,20,15,18
+3,Desun Hospital & Heart Institute,Orthopedics,720 Jessore Rd,22.6451,88.4316,4.2,18,20,12
+4,Ruby General Hospital,Cardiology,5/1B Kabir Rd,22.5386,88.3516,4.3,12,18,15
+5,Medica Superspecialty Hospital,Neurology,127 Mukundapur,22.4685,88.3670,4.7,22,17,20
+6,Belle Vue Clinic,Orthopedics,9 Dr. U. N. Brahmachari St,22.5523,88.3521,4.6,19,14,22
+7,Peerless Hospital,Cardiology,360 Panchasayar,22.4939,88.3651,4.4,14,16,19
+8,Woodlands Hospital,Neurology,8/5 Alipore Rd,22.5322,88.3319,4.1,16,13,16
+9,Columbia Asia Hospital,Orthopedics,IB-193Sector-IIISalt Lake,22.5762,88.4322,4.8,21,19,17
+10,Nightingale Hospital,Cardiology,11Shakespeare Sarani Rd,22.5410,88.3569,4.9,18,12,18
+11,R.N. Tagore Hospital,Neurology,124 Mukundapur Main Rd,22.4701,88.3670,4.2,17,16,20
+12,Charnock Hospital,Orthopedics,22 Gariahat Rd,22.5181,88.3725,4.6,20,22,15
+13,Fortis Hospital,Cardiology,730 Anandapur EM Bypass Rd,22.5154,88.3885,4.3,13,15,21
+14,Kothari Medical Centre,Neurology,8/3 Alipore Rd,22.5326,88.3291,4.7,23,18,19
+15,IQ City Medical College Hospital,Orthopedics,Sugandha Bijra Rd,22.9702,88.4292,4.5,17,20,16
+16,Ils Hospital,Cardiology,235/1 A.J.C. Bose Rd,22.5439,88.3562,4.8,19,16,22
+17,Narayana Multispeciality Hospital,Neurology,78 Jessore Rd,22.6519,88.4403,4.2,15,14,18
+18,KPC Medical College and Hospital,Orthopedics,1F Raja S.C. Mullick Rd,22.4685,88.3775,4.6,18,21,14
+19,Rabindranath Tagore International Institute of Cardiac Sciences,Cardiology,124 Mukundapur Main Rd,22.4701,88.3670,4.1,14,17,20
+20,North City Hospital,Neurology,73 Bagmari Rd,22.5714,88.4038,4.4,16,19,17
+21,Rajakumar Goenka Hospital,Orthopedics,Near Dum Dum Metro8/2Beniapukur Ln, 22.5792,88.4255,4.5,20,18,16
+22,Apollo Gleneagles Hospital,Cardiology,58 anal Circular Rd, 22.5802,88.4085,4.7,17,20,15
+23,Peerless Hospitex Hospital and Research Center Ltd.,Neurology,360 Panchasayar, 22.4939,88.3651,4.3,22,16,21
+24,Royal Calcutta Turf Club Hospital,Orthopedics,92 Upper Circular Rd, 22.5477,88.3595,4.6,19,15,18
+25,South Kolkata Medical Center,Cardiology,125 Raja S.C. Mullick Rd, 22.4685,88.3775,4.2,15,17,22
+26,Barasat Lions Hospital,Neurology,150 Jessore Rd, 22.6780,88.4424,4.8,21,19,16
+27,Bangur Institute of Neuroscience,Orthopedics,52 Narkeldanga Main Rd, 22.5641,88.3795,4.5,18,20,14
+28,Cancer Centre Welfare Home and Research Institute,Cardiology,18 Ulta Danga Main Rd, 22.5793,88.3826,4.4,16,18,19
+29,B.C. Roy Children's Hospital,Neurology,111 Narkeldanga Main Rd, 22.5641,88.3795,4.7,20,15,20
+30,Calcutta Lions Hospital,Orthopedics,25 Gariahat Rd, 22.5184,88.3663,4.6,19,21,16
+31,Belgachia Cardiology Hospital,Cardiology,25 Belgachia Rd, 22.6154,88.3687,4.3,14,16,21
+32,R.G. Kar Medical College and Hospital,Neurology,1 Khudiram Bose Sarani, 22.6220,88.3656,4.9,23,18,22
+33,Susrut Eye Foundation & Research Centre,Orthopedics,HB-36/A/1 Sector III Salt Lake City, 22.5772,88.4320,4.2,17,20,15
+34,Narayana Superspeciality Hospital,Cardiology,120 Andul Rd, 22.6211,88.3153,4.7,20,19,18
+35,B.N. Bose Hospital,Neurology,48 Bidhan Sarani, 22.5982,88.3660,4.5,19,17,20
+36,Chittaranjan National Cancer Institute,Orthopedics,37 S.P. Mukherjee Rd, 22.5346,88.3491,4.8,22,20,15
+37,Bankura Sammilani Medical College,Cardiology,Bankura, 23.2441,87.8655,4.6,21,17,22
+38,Shyam Bazar,Neurology,24 R. G. Kar Rd, 22.5961,88.3738,4.1,15,18,22
+39,Central Research Institute,Orthopedics,BC Road, 22.5577,88.3725,4.3,18,22,16
+40,Beliaghata ID Hospital,Cardiology,57 Beliaghata Main Rd, 22.5627,88.3925,4.5,19,16,21
+41,Ballygunge Government Hospital,Neurology,29 Vivekananda Rd, 22.5353,88.3628,4.4,18,20,19
+42,State Institute of Ophthalmology,Orthopedics,HB-36/A/1 Sector III Salt Lake City, 22.5772,88.4320,4.9,23,19,15
+43,Civil Defence Hospital,Cardiology,Behala, 22.5022,88.3021,4.7,21,17,20
+44,Kolkata Homeopathic Medical College and Hospital,Neurology,265 4 Belgachia Rd, 22.6168,88.3717,4.3,16,18,21
+45,R.G. Kar Medical College and Hospital,Orthopedics,1 Khudiram Bose Sarani, 22.6220,88.3656,4.6,20,21,16
+46,Kolkata Medical College,Cardiology,88 College St, 22.5726,88.3639,4.5,19,19,20
+47,Charnock Hospital,Neurology,22 Gariahat Rd, 22.5181,88.3725,4.2,17,15,21
+48,Ruby General Hospital,Orthopedics,5/1B Kabir Rd, 22.5386,88.3516,4.8,22,18,15
+49,Kolkata General Hospital,Cardiology,14 Kali Prasad Banerjee Rd, 22.5787,88.3630,4.7,20,17,18
+50,Bengal Nursing Home,Neurology,87 NSC Bose Rd, 22.6114,88.3832,4.6,21,16,20

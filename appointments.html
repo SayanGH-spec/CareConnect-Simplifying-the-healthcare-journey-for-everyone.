@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Schedule Appointment</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="hospital">Select Hospital</label>
+                <select id="hospital" name="hospital_name" class="form-control" required>
+                    <option value="" disabled selected>Select Hospital</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="specialty">Select Specialty</label>
+                <select id="specialty" name="specialty" class="form-control" required>
+                    <option value="" disabled selected>Select Specialty</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="appointment_date">Appointment Date</label>
+                <input type="date" id="appointment_date" name="appointment_date" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" class="form-control" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Schedule Appointment</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            fetchHospitals();
+            fetchSpecialties();
+
+            function fetchHospitals() {
+                $.get('/api/hospitals', function(data) {
+                    $('#hospital').empty();
+                    $.each(data, function(index, hospital) {
+                        $('#hospital').append($('<option>', {
+                            value: hospital.Hospital_Name,
+                            text: hospital.Hospital_Name
+                        }));
+                    });
+                });
+            }
+
+            function fetchSpecialties() {
+                $.get('/api/specialties', function(data) {
+                    $('#specialty').empty();
+                    $.each(data, function(index, specialty) {
+                        $('#specialty').append($('<option>', {
+                            value: specialty,
+                            text: specialty
+                        }));
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
